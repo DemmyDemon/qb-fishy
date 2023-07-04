@@ -80,6 +80,23 @@ The item name is `fishingrod`
 The recommended way is to put the fishing rod in one of the hotbar slots, and then pressing the relevant hotkey.  
 To start fishing, you must "Use" your fishing rod **while looking at water**. It's not enough to be near water.
 
+## Actually fishing
+
+The object of the minigame is for the hook to hit the fish. If it does, you will be given one of the three types of fish at random.  
+The randomness is weighted to make the the small one more likely, and the gigantic one way less likely.
+
+When you have successfully entered the minigame, as seen in [this screenshot](screenshot.png), you can start fishing.
+* Press Jump (usually bound to Space) to start the hook moving to the right.
+* Press Jump again to stop the hook, and start it moving down.
+
+Each successful catch increases your Streak by one, and makes the hook move a little faster.  
+The longer your streak is, the more likely you are to get a Large or Gigantic fish.
+
 ## Stop fishing
 
 Press the hotkey again, or open the inventory to "Use" the rod again, or press any of the directional movement keys (i.e W, A, S, or D)
+
+## After fishing
+
+Congratulations, you now have your pockets filled with fish. Good luck on laundry day.  
+`qb-fishy` *does not* provide a way to sell your fish, so you'll have to set that up in whatever resource handles your shops.
