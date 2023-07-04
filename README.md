@@ -1,7 +1,7 @@
 # qb-fishy
 Remake of the old Swedish Paradise fishing script, but for QB!
 
-![foo](screenshot.png)
+![Screenshot of the fishing minigame](screenshot.png)
 
 ## Dependencies
 
