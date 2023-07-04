@@ -8,6 +8,9 @@ Remake of the old Swedish Paradise fishing script, but for QB!
 - qb-core (for item definitions and notifications)
 - qb-inventory (for giving of items)
 
+In addition to this, the event `hud:server:RelieveStress` is used to sometimes relieve a little bit of stress every time you catch a fish.  
+This does not strictly *depend* on `qb-hud`, as it will just silently do nothing if nothing listens to that event.
+
 # Installation
 
 1. Unpack a release to your `resources` folder, or appropriate `[subfolder]` to taste.
